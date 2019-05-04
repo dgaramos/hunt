@@ -3,7 +3,7 @@ import api from "../services/api"
 
 import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native';
 
-export default class Main extends Component {
+export default class JSPackageList extends Component {
 
     state = {
         productInfo:{},

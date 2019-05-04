@@ -1,11 +1,14 @@
 import  { createStackNavigator, createAppContainer } from 'react-navigation';
 
-import Main from './pages/main'
+
+import MainMenu from './pages/mainMenu'
+import JSPackageList from './pages/jsPackageList'
 import Product from './pages/product'
 
 const Routes = createStackNavigator(
     {
-        Main,
+        MainMenu,
+        JSPackageList,
         Product
     },
     {
